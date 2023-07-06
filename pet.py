@@ -32,9 +32,9 @@ class Pet:
 # Create a Pet object and prompt the user for pet information
 pet = Pet("", "", "")
 
-pet.set_name(input("Enter the pet's name: "))
-pet.set_animal_type(input("Enter the type of animal: "))
-pet.set_age(input("Enter the pet's age: "))
+pet.set_name(input("\nEnter the pet's name: "))
+pet.set_animal_type(input("\nEnter the type of animal: "))
+pet.set_age(input("\nEnter the pet's age: "))
 
 # Display the retrieved pet data
 print("\nPet Information:")
