@@ -28,3 +28,6 @@ class Pet:
 
     def get_age(self):
         return self.__age
+    
+# Create a Pet object and prompt the user for pet information
+pet = Pet("", "", "")
