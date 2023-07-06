@@ -35,3 +35,9 @@ pet = Pet("", "", "")
 pet.set_name(input("Enter the pet's name: "))
 pet.set_animal_type(input("Enter the type of animal: "))
 pet.set_age(input("Enter the pet's age: "))
+
+# Display the retrieved pet data
+print("\nPet Information:")
+print("Name:", pet.get_name())
+print("Animal Type:", pet.get_animal_type())
+print("Age:", pet.get_age())
